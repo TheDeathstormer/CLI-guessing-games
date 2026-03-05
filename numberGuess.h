@@ -111,6 +111,6 @@ void numberGuess ()
         activePlayer.numberGuess.score += sessionScore;
         activePlayer.numberGuess.totalSessions++;
     } while (!menuExit());
-
+    
     return;
 }
