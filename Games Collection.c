@@ -10,6 +10,7 @@
 #include "hangman.h"
 #include "mysteryCode.h"
 
+void titleAsciiArt ();
 
 int main (void)
 {
