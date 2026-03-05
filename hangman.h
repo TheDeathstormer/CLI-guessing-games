@@ -1,5 +1,5 @@
-char* retrievedWord ();
-void displayWord(char* hiddenWord, bool guessedLetters[]);
+const char* retrievedWord ();
+void displayWord(const char* hiddenWord, bool guessedLetters[]);
 void drawHangman(int attempts);
 
 //Game beginning:
@@ -18,7 +18,7 @@ void hangman()
         int attempts = 6;
         char guessedWord[10] = {0};                 //letters won't be more than 10. Tracks correctly guessed letters
         bool guessedLetters[26] = { false };        //tracks all guessed letters
-        char* hiddenWord = retrievedWord();         //pointer to random word from word bank
+        const char* hiddenWord = retrievedWord();         //pointer to random word from word bank
         int totalLetters = strlen(hiddenWord);      //counts letters in selected word
 
         while (attempts != 0) 
@@ -85,7 +85,7 @@ void hangman()
     return;
 }
 
-void displayWord(char* hiddenWord, bool guessedLetters[])   //displays the current progress of the guessedWord
+void displayWord(const char* hiddenWord, bool guessedLetters[])   //displays the current progress of the guessedWord
 {
     printf("Word: ");
     for (int i = 0; hiddenWord[i] != '\0'; i++)             //checks all letters of hiddenWord
@@ -128,7 +128,7 @@ void drawHangman(int attempts) {
     }
 }
 
-char* retrievedWord () //retrieves random word from word bank
+const char* retrievedWord () //retrieves random word from word bank
 {
 
     const char *wordBank[] =   {"BEHAVED", "AGAINST", "OFFENCE", "PICTURE", "ANOTHER", "COUNTRY",
