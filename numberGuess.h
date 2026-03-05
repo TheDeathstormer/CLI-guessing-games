@@ -4,7 +4,7 @@ void numberGuess ()
     {
         printf 
         (
-            "\nNumber guessing game:\nA random number is chosen by the computer. You win if you guess it correctly.\n\Difficulties available:\n"
+            "\nNumber guessing game:\nA random number is chosen by the computer. You win if you guess it correctly.\nDifficulties available:\n"
             "    +------------+-----------+---------------------+--------------------+\n"
             "    | Difficulty |  Range    |    Max Attempts     | Score Multiplier   |\n"
             "    +------------+-----------+---------------------+--------------------+\n"
