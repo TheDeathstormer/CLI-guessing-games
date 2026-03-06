@@ -6,18 +6,15 @@ An aggregate of 3 guessing games:
 
 ## Features
 - Various difficulties
-- Score tracking and Score balancing
+- Score tracking with persistent data, and Score balancing
 - Profile management 
 - Leaderboard
 
 ## How to use
-- Various difficulties
-- Score tracking and Score balancing
-- Profile management 
-- Leaderboard
+Maximise your CLI to fit the full screen to ensure that the formatting appears properly.
 
 ## Build
-You will need a C compiler such as GCC (via [MinGW](https://www.mingw-w64.org/)) or Visual Studio Build Tools.
+You will need a C compiler such as GCC (via [MinGW](https://www.mingw-w64.org/)) or Visual Studio Build Tools. \
 Compile the program:
 ```
 gcc GamesCollection.c -o GuessQuest
