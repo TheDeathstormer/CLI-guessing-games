@@ -20,3 +20,5 @@ Compile the program:
 gcc GamesCollection.c -o GuessQuest
 ```
 
+## License
+Licensed under the [MIT License](https://github.com/TheDeathstormer/CLI-guessing-games/blob/main/LICENSE).
