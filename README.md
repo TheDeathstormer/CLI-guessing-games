@@ -6,7 +6,7 @@ An aggregate of 3 guessing games:
 
 ## Features
 - Various difficulties
-- Score tracking with persistent data, and Score balancing
+- Score tracking with persistent data, and Score balancing (specifics in the [wiki](https://github.com/TheDeathstormer/CLI-guessing-games/wiki#score-balancing))
 - Profile management 
 - Leaderboard
 
